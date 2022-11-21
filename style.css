@@ -1,0 +1,98 @@
+body{
+    width:100%;
+    background-color: rgb(210, 195, 197);
+}
+#header{ 
+    width:50%;
+    margin:1rem;
+
+}
+#btn-add{
+    padding:1rem;
+    background-color: rgb(231, 209, 167);
+    border-radius: 1rem;
+}
+#add-cards{
+    position: relative;
+    background-color: rgb(246, 232, 208);
+    margin:1rem;
+    width:40%;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+#clear-adding-card{
+    position:absolute;
+    left:90%;
+    top:0%;
+    color:red;
+    font-size: large;
+}
+#message{
+    display: none;
+    width:80%;
+    color:red;
+    border:1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+#btn-save{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(127, 200, 176);
+}
+#cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-card{
+    width:40%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: antiquewhite;
+    border:1px solid black;
+    border-radius: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.btns{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0.5rem auto;
+
+}
+.btn-edit{
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.btn-delete{
+    background-color: pink;
+    color:red;
+    border-radius: 5px;
+
+}
+a{
+    color:blue;
+    cursor: pointer;
+}
+@media only screen and (min-width: 700px) {
+    #add-cards{
+        width:20%;
+    }
+    .single-card{
+        width:20%;
+    }
+  }
+
